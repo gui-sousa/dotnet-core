@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Atualizando Código') {
             steps {
-                git branch: 'master', url: 'https://github.com/gui-sousa/nginx-guizin.git'
+                git branch: 'master', url: 'https://github.com/gui-sousa/dotnet-core.git'
             }
 
             post {

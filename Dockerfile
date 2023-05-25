@@ -1,4 +1,5 @@
-FROM guisousa/dotnet-core:0.3
+FROM mcr.microsoft.com/dotnet/aspnet:6.0.16-bullseye-slim-amd64
+#FROM guisousa/dotnet-core:0.3
 
 ENV CORECLR_NEWRELIC_HOME=/usr/local/newrelic-netcore20-agent
 ENV NEW_RELIC_LICENSE_KEY=eu01xxc61f8fd6f40195c9a1326dba08134e8682
